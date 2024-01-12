@@ -1,7 +1,7 @@
 import esbuild from "esbuild";
 import pkg from "./package.json" assert { type: "json" };
 
-const dev = process.argv.includres("--dev");
+const dev = process.argv.includes("--dev");
 const minify = !dev;
 
 const watch = process.argv.includes("--watch");
