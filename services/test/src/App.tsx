@@ -14,7 +14,7 @@ const View = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Text>font color is {vars.colors.$static.light.blue[500]}</Text>
+        <Text>font color is {vars.colors.$scale.blue[500]}</Text>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -29,5 +29,5 @@ const View = () => {
 };
 
 const Text = styled.p`
-  color: ${vars.colors.$static.light.blue[500]};
+  color: ${vars.colors.$scale.blue[500]};
 `;
