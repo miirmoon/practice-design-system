@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { vars } from "@miirmoon/themes";
+import { classes, vars } from "@miirmoon/themes";
 import "./App.css";
 import logo from "./logo.svg";
 
@@ -14,7 +14,9 @@ const View = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Text>font color is {vars.colors.$scale.blue[500]}</Text>
+        <Text className="heading3xl">
+          font color is {vars.colors.$scale.blue[500]}
+        </Text>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -29,5 +31,6 @@ const View = () => {
 };
 
 const Text = styled.p`
+  /* ${classes.typography.heading["4xl"]}; */
   color: ${vars.colors.$scale.blue[500]};
 `;
