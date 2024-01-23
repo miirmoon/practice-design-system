@@ -15,7 +15,7 @@ const View = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Text className="heading3xl">
-          font color is {vars.colors.$scale.blue[500]}
+          font color is {vars.colors.$scale.blue[500]} {vars.box.shadows.base}
         </Text>
         <a
           className="App-link"
