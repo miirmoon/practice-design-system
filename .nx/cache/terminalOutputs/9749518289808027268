@@ -1,5 +1,0 @@
-(node:80920) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
-(Use `node --trace-warnings ...` to show where the warning was created)
-[31m[1mUsage Error[22m[39m: Couldn't find a script named "tsc".
-
-[1m$ [22myarn run [--inspect] [--inspect-brk] [-T,--top-level] [-B,--binaries-only] [--require #0] <scriptName> ...
