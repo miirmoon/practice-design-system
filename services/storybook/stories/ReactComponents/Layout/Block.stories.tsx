@@ -1,5 +1,5 @@
 import { Block as _Block } from "@miirmoon/react-components-layout"
-// import "@miirmoon/react-components-layout/styles.css"
+import "@miirmoon/react-components-layout/style.css"
 
 export default {
   title: 'React Components/Layout/Block',
