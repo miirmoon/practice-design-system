@@ -25,6 +25,7 @@
     "@types/react-dom": "^18.2.18",
     "@vanilla-extract/css": "^1.14.0",
     "@vanilla-extract/esbuild-plugin": "^2.3.2",
+    "@vanilla-extract/sprinkles": "^1.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.3.3"
@@ -32,5 +33,8 @@
   "peerDependencies": {
     "@miirmoon/themes": "workspace:^",
     "react": "*"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0"
   }
 }
